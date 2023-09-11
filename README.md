@@ -1,4 +1,15 @@
+# 项目初衷
+
+官方方法需要手动安装node.js环境，环境和依赖不对还容易报错，对熟悉docker的用户来说，构建容器反而更加简单。
+
 # vuepress-dockerfile
+
+## 创建docker环境
+
+```
+# 一键安装 𝑫𝒐𝒄𝒌𝒆𝒓 
+curl -fsSL https://get.docker.com | bash
+```
 
 ## 如何创建镜像
 ```
