@@ -19,12 +19,10 @@ docker build -t vuepress:beta.66 .
 ```
 # docs文件夹目录结构
 
-├─ docs
-│  ├─ .vuepress
-│  │  └─ config.js
-│  └─ README.md
-├─ .gitignore
-└─ package.json
+docs
+  ├─ .vuepress
+  │  └─ config.js
+  └─ README.md
 ```
 
 ## 启动容器
