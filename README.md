@@ -14,7 +14,7 @@ docker build -t vuepress:beta.66 .
 
 ## 按照官方文档构建markdown文章和配置文件
 
-[官网地址：](https://v2.vuepress.vuejs.org/zh/guide/configuration.html)
+点击访问：[官网地址](https://v2.vuepress.vuejs.org/zh/guide/configuration.html)
 
 ```
 # docs文件夹目录结构
@@ -34,3 +34,5 @@ docker run -d \
  -v /实际配置文件目录/docs:/vuepress/docs \
 vuepress:beta.66
 ```
+
+启动后访问:[http://localhost:8080](http://localhost:8080)
