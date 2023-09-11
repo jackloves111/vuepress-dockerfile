@@ -1,6 +1,6 @@
 # vuepress-dockerfile
 
-## 如何使用
+## 如何创建镜像
 ```
 # 克隆文件
 git clone https://github.com/jackloves111/vuepress-dockerfile.git
@@ -12,8 +12,13 @@ cd /vuepress-dockerfile/
 docker build -t vuepress:beta.66 .
 ```
 
-## 创建docs文章和配置文件
+## 按照官方文档构建markdown文章和配置文件
+
+[官网地址：](https://v2.vuepress.vuejs.org/zh/guide/configuration.html)
+
 ```
+# docs文件夹目录结构
+
 ├─ docs
 │  ├─ .vuepress
 │  │  └─ config.js
