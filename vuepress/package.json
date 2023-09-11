@@ -1,0 +1,20 @@
+{
+  "name": "2023.7.22_b.66",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.66",
+    "vuepress-plugin-components": "^2.0.0-beta.233",
+    "vuepress-webpack": "^2.0.0-beta.66"
+  }
+}
