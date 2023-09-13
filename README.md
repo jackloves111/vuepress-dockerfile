@@ -36,6 +36,8 @@ docs
   └─ README.md
 ```
 
+建议参考本项目预设docs文件：https://github.com/jackloves111/vuepress-dockerfile/tree/master/vuepress/docs
+
 ## 启动容器
 ```
 docker run -d \
