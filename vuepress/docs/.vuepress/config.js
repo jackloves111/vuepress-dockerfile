@@ -85,21 +85,14 @@ export default defineUserConfig({
         text: '导航3',
         children: [
           {
-            text: '导航4',
-            link: '/demo1/',
+            text: 'baidu',
+            link: 'https://www.baidu.com',
             // 该元素将一直处于激活状态
             activeMatch: '/',
           },
           {
-            text: '导航5',
-            link: '/demo1/',
-            // 该元素在当前路由路径是 /foo/ 开头时激活
-            // 支持正则表达式
-            activeMatch: '/',
-          },
-          {
-            text: '导航3',
-            link: 'www.baidu.com',
+            text: '百度',
+            link: 'https://www.baidu.com',
             // 该元素在当前路由路径是 /foo/ 开头时激活
             // 支持正则表达式
             activeMatch: '/',
